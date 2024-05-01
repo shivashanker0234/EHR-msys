@@ -1,0 +1,33 @@
+.appPopup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 25, 31, 0.534);
+    z-index: 1000;
+}
+
+.buttonClose {
+ float: right;
+ border-radius: 15px;
+ border: none;
+ background-color:white;
+ color: #2b87c8;
+}
+
+.buttonClose:hover {
+ border-color: #ffffff;
+}
+

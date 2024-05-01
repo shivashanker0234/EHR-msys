@@ -1,0 +1,103 @@
+/* PatientProfile.css */
+
+.patient-container {
+  width: 90%;
+  margin: auto;
+}
+
+.profile-title {
+  padding: 20px;
+}
+
+.profile-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  background-color: grey;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-form,
+.form-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.badge-success {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-left: 0px;
+  top: -5px;
+  position: relative;
+}
+
+.profile-h2 {
+  font-size: 40px;
+  color: #333;
+}
+
+.detail-item {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.detail-item strong {
+  margin-right: 10px;
+}
+
+.detail-item strong:after {
+  content: ":";
+  margin-right: 5px;
+}
+
+.profile-name {
+  font-size: 28px;
+  color: #333;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
